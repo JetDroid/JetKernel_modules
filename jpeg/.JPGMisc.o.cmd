@@ -1,7 +1,7 @@
-cmd_/home/tbressers/JetDroid/modules/jpeg/JPGMisc.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-gcc -Wp,-MD,/home/tbressers/JetDroid/modules/jpeg/.JPGMisc.o.d  -nostdinc -isystem /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include -Iinclude  -I/home/tbressers/JetDroid/JetKernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6 -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -fno-dwarf2-cfi-asm -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(JPGMisc)"  -D"KBUILD_MODNAME=KBUILD_STR(s3c_jpeg)"  -c -o /home/tbressers/JetDroid/modules/jpeg/JPGMisc.o /home/tbressers/JetDroid/modules/jpeg/JPGMisc.c
+cmd_/home/tbressers/JetDroid/Modules/jpeg/JPGMisc.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-gcc -Wp,-MD,/home/tbressers/JetDroid/Modules/jpeg/.JPGMisc.o.d  -nostdinc -isystem /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include -Iinclude  -I/home/tbressers/JetDroid/JetKernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6 -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -fno-dwarf2-cfi-asm -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(JPGMisc)"  -D"KBUILD_MODNAME=KBUILD_STR(s3c_jpeg)"  -c -o /home/tbressers/JetDroid/Modules/jpeg/JPGMisc.o /home/tbressers/JetDroid/Modules/jpeg/JPGMisc.c
 
-deps_/home/tbressers/JetDroid/modules/jpeg/JPGMisc.o := \
-  /home/tbressers/JetDroid/modules/jpeg/JPGMisc.c \
+deps_/home/tbressers/JetDroid/Modules/jpeg/JPGMisc.o := \
+  /home/tbressers/JetDroid/Modules/jpeg/JPGMisc.c \
   /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stdarg.h \
   include/linux/kernel.h \
     $(wildcard include/config/lbd.h) \
@@ -390,8 +390,8 @@ deps_/home/tbressers/JetDroid/modules/jpeg/JPGMisc.o := \
     $(wildcard include/config/cpu/s5p6440.h) \
     $(wildcard include/config/cpu/s5pc100.h) \
   arch/arm/plat-s3c/include/plat/map-base.h \
-  /home/tbressers/JetDroid/modules/jpeg/JPGMisc.h \
-  /home/tbressers/JetDroid/modules/jpeg/JPGMem.h \
+  /home/tbressers/JetDroid/Modules/jpeg/JPGMisc.h \
+  /home/tbressers/JetDroid/Modules/jpeg/JPGMem.h \
   arch/arm/mach-s3c6400/include/mach/hardware.h \
     $(wildcard include/config/mach/instinctq.h) \
     $(wildcard include/config/mach/jet.h) \
@@ -436,6 +436,6 @@ deps_/home/tbressers/JetDroid/modules/jpeg/JPGMisc.o := \
   /home/tbressers/JetDroid/JetKernel/arch/arm/include/asm/setup.h \
     $(wildcard include/config/arch/lh7a40x.h) \
 
-/home/tbressers/JetDroid/modules/jpeg/JPGMisc.o: $(deps_/home/tbressers/JetDroid/modules/jpeg/JPGMisc.o)
+/home/tbressers/JetDroid/Modules/jpeg/JPGMisc.o: $(deps_/home/tbressers/JetDroid/Modules/jpeg/JPGMisc.o)
 
-$(deps_/home/tbressers/JetDroid/modules/jpeg/JPGMisc.o):
+$(deps_/home/tbressers/JetDroid/Modules/jpeg/JPGMisc.o):

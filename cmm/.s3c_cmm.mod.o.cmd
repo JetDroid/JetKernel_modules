@@ -1,7 +1,7 @@
-cmd_/home/tbressers/JetDroid/modules/cmm/s3c_cmm.mod.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-gcc -Wp,-MD,/home/tbressers/JetDroid/modules/cmm/.s3c_cmm.mod.o.d  -nostdinc -isystem /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include -Iinclude  -I/home/tbressers/JetDroid/JetKernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6 -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -fno-dwarf2-cfi-asm  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(s3c_cmm.mod)"  -D"KBUILD_MODNAME=KBUILD_STR(s3c_cmm)"  -DMODULE -c -o /home/tbressers/JetDroid/modules/cmm/s3c_cmm.mod.o /home/tbressers/JetDroid/modules/cmm/s3c_cmm.mod.c
+cmd_/home/tbressers/JetDroid/Modules/cmm/s3c_cmm.mod.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-gcc -Wp,-MD,/home/tbressers/JetDroid/Modules/cmm/.s3c_cmm.mod.o.d  -nostdinc -isystem /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include -Iinclude  -I/home/tbressers/JetDroid/JetKernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6 -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -fno-dwarf2-cfi-asm  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(s3c_cmm.mod)"  -D"KBUILD_MODNAME=KBUILD_STR(s3c_cmm)"  -DMODULE -c -o /home/tbressers/JetDroid/Modules/cmm/s3c_cmm.mod.o /home/tbressers/JetDroid/Modules/cmm/s3c_cmm.mod.c
 
-deps_/home/tbressers/JetDroid/modules/cmm/s3c_cmm.mod.o := \
-  /home/tbressers/JetDroid/modules/cmm/s3c_cmm.mod.c \
+deps_/home/tbressers/JetDroid/Modules/cmm/s3c_cmm.mod.o := \
+  /home/tbressers/JetDroid/Modules/cmm/s3c_cmm.mod.c \
     $(wildcard include/config/module/unload.h) \
   include/linux/module.h \
     $(wildcard include/config/modules.h) \
@@ -267,6 +267,6 @@ deps_/home/tbressers/JetDroid/modules/cmm/s3c_cmm.mod.o := \
   include/linux/vermagic.h \
   include/linux/utsrelease.h \
 
-/home/tbressers/JetDroid/modules/cmm/s3c_cmm.mod.o: $(deps_/home/tbressers/JetDroid/modules/cmm/s3c_cmm.mod.o)
+/home/tbressers/JetDroid/Modules/cmm/s3c_cmm.mod.o: $(deps_/home/tbressers/JetDroid/Modules/cmm/s3c_cmm.mod.o)
 
-$(deps_/home/tbressers/JetDroid/modules/cmm/s3c_cmm.mod.o):
+$(deps_/home/tbressers/JetDroid/Modules/cmm/s3c_cmm.mod.o):

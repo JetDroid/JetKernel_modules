@@ -1,7 +1,7 @@
-cmd_/home/tbressers/JetDroid/modules/mfc/s3c-mfc.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-gcc -Wp,-MD,/home/tbressers/JetDroid/modules/mfc/.s3c-mfc.o.d  -nostdinc -isystem /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include -Iinclude  -I/home/tbressers/JetDroid/JetKernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6 -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -fno-dwarf2-cfi-asm -DLINUX -DDIVX_ENABLE -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(s3c_mfc)"  -D"KBUILD_MODNAME=KBUILD_STR(s3c_mfc)"  -c -o /home/tbressers/JetDroid/modules/mfc/s3c-mfc.o /home/tbressers/JetDroid/modules/mfc/s3c-mfc.c
+cmd_/home/tbressers/JetDroid/Modules/mfc/s3c-mfc.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-gcc -Wp,-MD,/home/tbressers/JetDroid/Modules/mfc/.s3c-mfc.o.d  -nostdinc -isystem /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include -Iinclude  -I/home/tbressers/JetDroid/JetKernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6 -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -fno-dwarf2-cfi-asm -DLINUX -DDIVX_ENABLE -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(s3c_mfc)"  -D"KBUILD_MODNAME=KBUILD_STR(s3c_mfc)"  -c -o /home/tbressers/JetDroid/Modules/mfc/s3c-mfc.o /home/tbressers/JetDroid/Modules/mfc/s3c-mfc.c
 
-deps_/home/tbressers/JetDroid/modules/mfc/s3c-mfc.o := \
-  /home/tbressers/JetDroid/modules/mfc/s3c-mfc.c \
+deps_/home/tbressers/JetDroid/Modules/mfc/s3c-mfc.o := \
+  /home/tbressers/JetDroid/Modules/mfc/s3c-mfc.c \
     $(wildcard include/config/s3c6400/pdfw.h) \
     $(wildcard include/config/s3c6400/kdpmd.h) \
     $(wildcard include/config/plat/s3c64xx.h) \
@@ -504,8 +504,8 @@ deps_/home/tbressers/JetDroid/modules/mfc/s3c-mfc.o := \
   arch/arm/plat-s3c/include/plat/map-base.h \
   arch/arm/plat-s3c64xx/include/plat/pm.h \
   include/linux/sysdev.h \
-  /home/tbressers/JetDroid/modules/mfc/Mfc.h \
-  /home/tbressers/JetDroid/modules/mfc/MfcConfig.h \
+  /home/tbressers/JetDroid/Modules/mfc/Mfc.h \
+  /home/tbressers/JetDroid/Modules/mfc/MfcConfig.h \
     $(wildcard include/config/h//.h) \
   arch/arm/mach-s3c6400/include/mach/hardware.h \
     $(wildcard include/config/mach/instinctq.h) \
@@ -550,21 +550,21 @@ deps_/home/tbressers/JetDroid/modules/mfc/s3c-mfc.o := \
     $(wildcard include/config/log/buf/shift.h) \
   /home/tbressers/JetDroid/JetKernel/arch/arm/include/asm/setup.h \
     $(wildcard include/config/arch/lh7a40x.h) \
-  /home/tbressers/JetDroid/modules/mfc/MFC_HW_Init.h \
-  /home/tbressers/JetDroid/modules/mfc/MfcTypes.h \
-  /home/tbressers/JetDroid/modules/mfc/MFC_Instance.h \
+  /home/tbressers/JetDroid/Modules/mfc/MFC_HW_Init.h \
+  /home/tbressers/JetDroid/Modules/mfc/MfcTypes.h \
+  /home/tbressers/JetDroid/Modules/mfc/MFC_Instance.h \
     $(wildcard include/config/phy/outbuf.h) \
     $(wildcard include/config/out/position.h) \
-  /home/tbressers/JetDroid/modules/mfc/MFC_Inst_Pool.h \
-  /home/tbressers/JetDroid/modules/mfc/LogMsg.h \
-  /home/tbressers/JetDroid/modules/mfc/MfcMutex.h \
-  /home/tbressers/JetDroid/modules/mfc/s3c-mfc.h \
-  /home/tbressers/JetDroid/modules/mfc/FramBufMgr.h \
-  /home/tbressers/JetDroid/modules/mfc/MfcMemory.h \
-  /home/tbressers/JetDroid/modules/mfc/DataBuf.h \
-  /home/tbressers/JetDroid/modules/mfc/MfcSfr.h \
-  /home/tbressers/JetDroid/modules/mfc/MfcIntrNotification.h \
-  /home/tbressers/JetDroid/modules/mfc/MfcDrvParams.h \
+  /home/tbressers/JetDroid/Modules/mfc/MFC_Inst_Pool.h \
+  /home/tbressers/JetDroid/Modules/mfc/LogMsg.h \
+  /home/tbressers/JetDroid/Modules/mfc/MfcMutex.h \
+  /home/tbressers/JetDroid/Modules/mfc/s3c-mfc.h \
+  /home/tbressers/JetDroid/Modules/mfc/FramBufMgr.h \
+  /home/tbressers/JetDroid/Modules/mfc/MfcMemory.h \
+  /home/tbressers/JetDroid/Modules/mfc/DataBuf.h \
+  /home/tbressers/JetDroid/Modules/mfc/MfcSfr.h \
+  /home/tbressers/JetDroid/Modules/mfc/MfcIntrNotification.h \
+  /home/tbressers/JetDroid/Modules/mfc/MfcDrvParams.h \
     $(wildcard include/config/arg.h) \
     $(wildcard include/config/dec/frame/need/count.h) \
     $(wildcard include/config/dec/mp4asp/mv.h) \
@@ -588,6 +588,6 @@ deps_/home/tbressers/JetDroid/modules/mfc/s3c-mfc.o := \
   arch/arm/plat-s3c64xx/include/plat/s3c64xx-dvfs.h \
   arch/arm/plat-s3c64xx/include/plat/power-clock-domain.h \
 
-/home/tbressers/JetDroid/modules/mfc/s3c-mfc.o: $(deps_/home/tbressers/JetDroid/modules/mfc/s3c-mfc.o)
+/home/tbressers/JetDroid/Modules/mfc/s3c-mfc.o: $(deps_/home/tbressers/JetDroid/Modules/mfc/s3c-mfc.o)
 
-$(deps_/home/tbressers/JetDroid/modules/mfc/s3c-mfc.o):
+$(deps_/home/tbressers/JetDroid/Modules/mfc/s3c-mfc.o):

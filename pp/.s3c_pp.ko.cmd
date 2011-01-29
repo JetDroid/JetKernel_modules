@@ -1,1 +1,1 @@
-cmd_/home/tbressers/JetDroid/modules/pp/s3c_pp.ko := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL -r   -o /home/tbressers/JetDroid/modules/pp/s3c_pp.ko /home/tbressers/JetDroid/modules/pp/s3c_pp.o /home/tbressers/JetDroid/modules/pp/s3c_pp.mod.o
+cmd_/home/tbressers/JetDroid/Modules/pp/s3c_pp.ko := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL -r   -o /home/tbressers/JetDroid/Modules/pp/s3c_pp.ko /home/tbressers/JetDroid/Modules/pp/s3c_pp.o /home/tbressers/JetDroid/Modules/pp/s3c_pp.mod.o

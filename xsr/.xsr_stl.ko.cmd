@@ -1,1 +1,1 @@
-cmd_/home/tbressers/JetDroid/modules/xsr/xsr_stl.ko := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL -r   -o /home/tbressers/JetDroid/modules/xsr/xsr_stl.ko /home/tbressers/JetDroid/modules/xsr/xsr_stl.o /home/tbressers/JetDroid/modules/xsr/xsr_stl.mod.o
+cmd_/home/tbressers/JetDroid/Modules/xsr/xsr_stl.ko := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL -r   -o /home/tbressers/JetDroid/Modules/xsr/xsr_stl.ko /home/tbressers/JetDroid/Modules/xsr/xsr_stl.o /home/tbressers/JetDroid/Modules/xsr/xsr_stl.mod.o

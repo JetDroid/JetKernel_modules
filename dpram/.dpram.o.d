@@ -1,4 +1,4 @@
-dpram.o: /home/tbressers/JetDroid/modules/dpram/dpram.c \
+dpram.o: /home/tbressers/JetDroid/Modules/dpram/dpram.c \
  include/linux/autoconf.h include/linux/module.h include/linux/list.h \
  include/linux/stddef.h include/linux/compiler.h \
  include/linux/compiler-gcc.h include/linux/compiler-gcc4.h \
@@ -186,10 +186,10 @@ dpram.o: /home/tbressers/JetDroid/modules/dpram/dpram.c \
  arch/arm/mach-s3c6400/include/mach/gpio.h include/asm-generic/gpio.h \
  arch/arm/mach-s3c6400/include/mach/jet_gpio.h include/linux/proc_fs.h \
  include/linux/magic.h include/linux/wakelock.h \
- /home/tbressers/JetDroid/modules/dpram/dpram.h \
- /home/tbressers/JetDroid/modules/dpram/BML.h \
- /home/tbressers/JetDroid/modules/dpram/LLD.h \
- /home/tbressers/JetDroid/modules/dpram/XsrTypes.h \
- /home/tbressers/JetDroid/modules/dpram/OCLDReg.h \
- /home/tbressers/JetDroid/modules/dpram/OCLD.h \
+ /home/tbressers/JetDroid/Modules/dpram/dpram.h \
+ /home/tbressers/JetDroid/Modules/dpram/BML.h \
+ /home/tbressers/JetDroid/Modules/dpram/LLD.h \
+ /home/tbressers/JetDroid/Modules/dpram/XsrTypes.h \
+ /home/tbressers/JetDroid/Modules/dpram/OCLDReg.h \
+ /home/tbressers/JetDroid/Modules/dpram/OCLD.h \
  arch/arm/mach-s3c6400/include/mach/param.h

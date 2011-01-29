@@ -1,1 +1,1 @@
-cmd_/home/tbressers/JetDroid/modules/vibetonz/vibrator.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL    -r -o /home/tbressers/JetDroid/modules/vibetonz/vibrator.o /home/tbressers/JetDroid/modules/vibetonz/vibetonz.o 
+cmd_/home/tbressers/JetDroid/Modules/vibetonz/vibrator.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL    -r -o /home/tbressers/JetDroid/Modules/vibetonz/vibrator.o /home/tbressers/JetDroid/Modules/vibetonz/vibetonz.o 

@@ -1,4 +1,4 @@
-s5k4ca.o: /home/tbressers/JetDroid/modules/camera/samsung/s5k4ca.c \
+s5k4ca.o: /home/tbressers/JetDroid/Modules/camera/samsung/s5k4ca.c \
  include/linux/autoconf.h include/linux/module.h include/linux/list.h \
  include/linux/stddef.h include/linux/compiler.h \
  include/linux/compiler-gcc.h include/linux/compiler-gcc4.h \
@@ -141,11 +141,11 @@ s5k4ca.o: /home/tbressers/JetDroid/modules/camera/samsung/s5k4ca.c \
  arch/arm/mach-s3c6400/include/mach/jet_gpio.h \
  arch/arm/plat-s3c/include/plat/gpio-cfg.h \
  arch/arm/plat-s3c/include/plat/egpio.h \
- /home/tbressers/JetDroid/modules/camera/samsung/../s3c_camif.h \
+ /home/tbressers/JetDroid/Modules/camera/samsung/../s3c_camif.h \
  include/linux/videodev.h include/linux/ioctl.h \
  /home/tbressers/JetDroid/JetKernel/arch/arm/include/asm/ioctl.h \
  include/asm-generic/ioctl.h include/linux/videodev2.h \
  include/linux/video_decoder.h \
  arch/arm/plat-s3c64xx/include/plat/reserved_mem.h \
  /home/tbressers/JetDroid/JetKernel/arch/arm/include/asm/setup.h \
- /home/tbressers/JetDroid/modules/camera/samsung/s5k4ca.h
+ /home/tbressers/JetDroid/Modules/camera/samsung/s5k4ca.h

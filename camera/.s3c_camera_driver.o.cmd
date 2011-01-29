@@ -1,7 +1,7 @@
-cmd_/home/tbressers/JetDroid/modules/camera/s3c_camera_driver.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-gcc -Wp,-MD,/home/tbressers/JetDroid/modules/camera/.s3c_camera_driver.o.d  -nostdinc -isystem /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include -Iinclude  -I/home/tbressers/JetDroid/JetKernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6 -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -fno-dwarf2-cfi-asm -DCONFIG_VIDEO_SAMSUNG_S5K4CA -DCONFIG_FLASH_AAT1271A -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(s3c_camera_driver)"  -D"KBUILD_MODNAME=KBUILD_STR(s3c_camera)"  -c -o /home/tbressers/JetDroid/modules/camera/s3c_camera_driver.o /home/tbressers/JetDroid/modules/camera/s3c_camera_driver.c
+cmd_/home/tbressers/JetDroid/Modules/camera/s3c_camera_driver.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-gcc -Wp,-MD,/home/tbressers/JetDroid/Modules/camera/.s3c_camera_driver.o.d  -nostdinc -isystem /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include -Iinclude  -I/home/tbressers/JetDroid/JetKernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6 -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -fno-dwarf2-cfi-asm -DCONFIG_VIDEO_SAMSUNG_S5K4CA -DCONFIG_FLASH_AAT1271A -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(s3c_camera_driver)"  -D"KBUILD_MODNAME=KBUILD_STR(s3c_camera)"  -c -o /home/tbressers/JetDroid/Modules/camera/s3c_camera_driver.o /home/tbressers/JetDroid/Modules/camera/s3c_camera_driver.c
 
-deps_/home/tbressers/JetDroid/modules/camera/s3c_camera_driver.o := \
-  /home/tbressers/JetDroid/modules/camera/s3c_camera_driver.c \
+deps_/home/tbressers/JetDroid/Modules/camera/s3c_camera_driver.o := \
+  /home/tbressers/JetDroid/Modules/camera/s3c_camera_driver.c \
     $(wildcard include/config/s3c64xx/domain/gating.h) \
     $(wildcard include/config/video/samsung/ce131.h) \
     $(wildcard include/config/video/samsung/s5k4ca.h) \
@@ -560,7 +560,7 @@ deps_/home/tbressers/JetDroid/modules/camera/s3c_camera_driver.o := \
   include/media/v4l2-ioctl.h \
     $(wildcard include/config/video/v4l1/compat.h) \
   include/linux/videodev.h \
-  /home/tbressers/JetDroid/modules/camera/s3c_camif.h \
+  /home/tbressers/JetDroid/Modules/camera/s3c_camif.h \
     $(wildcard include/config/mach/bonanza.h) \
   include/linux/i2c.h \
     $(wildcard include/config/i2c/boardinfo.h) \
@@ -572,8 +572,8 @@ deps_/home/tbressers/JetDroid/modules/camera/s3c_camera_driver.o := \
     $(wildcard include/config/log/buf/shift.h) \
   /home/tbressers/JetDroid/JetKernel/arch/arm/include/asm/setup.h \
     $(wildcard include/config/arch/lh7a40x.h) \
-  /home/tbressers/JetDroid/modules/camera/videodev2_s3c.h \
+  /home/tbressers/JetDroid/Modules/camera/videodev2_s3c.h \
 
-/home/tbressers/JetDroid/modules/camera/s3c_camera_driver.o: $(deps_/home/tbressers/JetDroid/modules/camera/s3c_camera_driver.o)
+/home/tbressers/JetDroid/Modules/camera/s3c_camera_driver.o: $(deps_/home/tbressers/JetDroid/Modules/camera/s3c_camera_driver.o)
 
-$(deps_/home/tbressers/JetDroid/modules/camera/s3c_camera_driver.o):
+$(deps_/home/tbressers/JetDroid/Modules/camera/s3c_camera_driver.o):

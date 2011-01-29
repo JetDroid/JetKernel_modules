@@ -1,2 +1,2 @@
-/home/tbressers/JetDroid/modules/multipdp/multipdp.ko
-/home/tbressers/JetDroid/modules/multipdp/multipdp.o
+/home/tbressers/JetDroid/Modules/multipdp/multipdp.ko
+/home/tbressers/JetDroid/Modules/multipdp/multipdp.o

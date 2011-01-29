@@ -1,7 +1,7 @@
-cmd_/home/tbressers/JetDroid/modules/pp/s3c_pp_6400.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-gcc -Wp,-MD,/home/tbressers/JetDroid/modules/pp/.s3c_pp_6400.o.d  -nostdinc -isystem /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include -Iinclude  -I/home/tbressers/JetDroid/JetKernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6 -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -fno-dwarf2-cfi-asm -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(s3c_pp_6400)"  -D"KBUILD_MODNAME=KBUILD_STR(s3c_pp)"  -c -o /home/tbressers/JetDroid/modules/pp/s3c_pp_6400.o /home/tbressers/JetDroid/modules/pp/s3c_pp_6400.c
+cmd_/home/tbressers/JetDroid/Modules/pp/s3c_pp_6400.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-gcc -Wp,-MD,/home/tbressers/JetDroid/Modules/pp/.s3c_pp_6400.o.d  -nostdinc -isystem /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include -Iinclude  -I/home/tbressers/JetDroid/JetKernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6 -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -fno-dwarf2-cfi-asm -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(s3c_pp_6400)"  -D"KBUILD_MODNAME=KBUILD_STR(s3c_pp)"  -c -o /home/tbressers/JetDroid/Modules/pp/s3c_pp_6400.o /home/tbressers/JetDroid/Modules/pp/s3c_pp_6400.c
 
-deps_/home/tbressers/JetDroid/modules/pp/s3c_pp_6400.o := \
-  /home/tbressers/JetDroid/modules/pp/s3c_pp_6400.c \
+deps_/home/tbressers/JetDroid/Modules/pp/s3c_pp_6400.o := \
+  /home/tbressers/JetDroid/Modules/pp/s3c_pp_6400.c \
     $(wildcard include/config/s3c64xx/domain/gating.h) \
   include/linux/init.h \
     $(wildcard include/config/modules.h) \
@@ -546,9 +546,9 @@ deps_/home/tbressers/JetDroid/modules/pp/s3c_pp_6400.o := \
   arch/arm/plat-s3c64xx/include/plat/pm.h \
   include/linux/sysdev.h \
   arch/arm/plat-s3c64xx/include/plat/power-clock-domain.h \
-  /home/tbressers/JetDroid/modules/pp/s3c_pp.h \
-  /home/tbressers/JetDroid/modules/pp/s3c_pp_common.h \
+  /home/tbressers/JetDroid/Modules/pp/s3c_pp.h \
+  /home/tbressers/JetDroid/Modules/pp/s3c_pp_common.h \
 
-/home/tbressers/JetDroid/modules/pp/s3c_pp_6400.o: $(deps_/home/tbressers/JetDroid/modules/pp/s3c_pp_6400.o)
+/home/tbressers/JetDroid/Modules/pp/s3c_pp_6400.o: $(deps_/home/tbressers/JetDroid/Modules/pp/s3c_pp_6400.o)
 
-$(deps_/home/tbressers/JetDroid/modules/pp/s3c_pp_6400.o):
+$(deps_/home/tbressers/JetDroid/Modules/pp/s3c_pp_6400.o):

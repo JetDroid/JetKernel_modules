@@ -1,7 +1,7 @@
-cmd_/home/tbressers/JetDroid/modules/camera/s3c_camif.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-gcc -Wp,-MD,/home/tbressers/JetDroid/modules/camera/.s3c_camif.o.d  -nostdinc -isystem /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include -Iinclude  -I/home/tbressers/JetDroid/JetKernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6 -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -fno-dwarf2-cfi-asm -DCONFIG_VIDEO_SAMSUNG_S5K4CA -DCONFIG_FLASH_AAT1271A -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(s3c_camif)"  -D"KBUILD_MODNAME=KBUILD_STR(s3c_camera)"  -c -o /home/tbressers/JetDroid/modules/camera/s3c_camif.o /home/tbressers/JetDroid/modules/camera/s3c_camif.c
+cmd_/home/tbressers/JetDroid/Modules/camera/s3c_camif.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-gcc -Wp,-MD,/home/tbressers/JetDroid/Modules/camera/.s3c_camif.o.d  -nostdinc -isystem /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include -Iinclude  -I/home/tbressers/JetDroid/JetKernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6 -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -fno-dwarf2-cfi-asm -DCONFIG_VIDEO_SAMSUNG_S5K4CA -DCONFIG_FLASH_AAT1271A -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(s3c_camif)"  -D"KBUILD_MODNAME=KBUILD_STR(s3c_camera)"  -c -o /home/tbressers/JetDroid/Modules/camera/s3c_camif.o /home/tbressers/JetDroid/Modules/camera/s3c_camif.c
 
-deps_/home/tbressers/JetDroid/modules/camera/s3c_camif.o := \
-  /home/tbressers/JetDroid/modules/camera/s3c_camif.c \
+deps_/home/tbressers/JetDroid/Modules/camera/s3c_camif.o := \
+  /home/tbressers/JetDroid/Modules/camera/s3c_camif.c \
     $(wildcard include/config/cpu/s3c2443.h) \
     $(wildcard include/config/cpu/s3c2450.h) \
     $(wildcard include/config/cpu/s3c2416.h) \
@@ -433,7 +433,7 @@ deps_/home/tbressers/JetDroid/modules/camera/s3c_camif.o := \
   arch/arm/plat-s3c/include/plat/regs-lcd.h \
     $(wildcard include/config/cpu/s5p6440.h) \
     $(wildcard include/config/cpu/s5pc100.h) \
-  /home/tbressers/JetDroid/modules/camera/s3c_camif.h \
+  /home/tbressers/JetDroid/Modules/camera/s3c_camif.h \
     $(wildcard include/config/mach/bonanza.h) \
   include/linux/i2c.h \
     $(wildcard include/config/i2c/boardinfo.h) \
@@ -456,6 +456,6 @@ deps_/home/tbressers/JetDroid/modules/camera/s3c_camif.o := \
   /home/tbressers/JetDroid/JetKernel/arch/arm/include/asm/setup.h \
     $(wildcard include/config/arch/lh7a40x.h) \
 
-/home/tbressers/JetDroid/modules/camera/s3c_camif.o: $(deps_/home/tbressers/JetDroid/modules/camera/s3c_camif.o)
+/home/tbressers/JetDroid/Modules/camera/s3c_camif.o: $(deps_/home/tbressers/JetDroid/Modules/camera/s3c_camif.o)
 
-$(deps_/home/tbressers/JetDroid/modules/camera/s3c_camif.o):
+$(deps_/home/tbressers/JetDroid/Modules/camera/s3c_camif.o):

@@ -1,2 +1,2 @@
-/home/tbressers/JetDroid/modules/vibetonz/vibrator.ko
-/home/tbressers/JetDroid/modules/vibetonz/vibetonz.o
+/home/tbressers/JetDroid/Modules/vibetonz/vibrator.ko
+/home/tbressers/JetDroid/Modules/vibetonz/vibetonz.o

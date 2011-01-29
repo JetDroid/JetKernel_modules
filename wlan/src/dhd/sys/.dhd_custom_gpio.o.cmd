@@ -1,8 +1,8 @@
-cmd_/home/tbressers/JetDroid/modules/wlan/src/dhd/sys/dhd_custom_gpio.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-gcc -Wp,-MD,/home/tbressers/JetDroid/modules/wlan/src/dhd/sys/.dhd_custom_gpio.o.d  -nostdinc -isystem /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include -Iinclude  -I/home/tbressers/JetDroid/JetKernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6 -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -fno-dwarf2-cfi-asm -I/include -I/home/tbressers/JetDroid/JetKernel -DBCMDBG -DBCMDBG_MEM -Dlinux -DLINUX -DBDC -DTOE -DBCMDRIVER -DBCMDONGLEHOST -DDHDTHREAD -DBCMWPA2 -DUSE_STOCK_MMC_DRIVER -DDHD_GPL -DDHD_SCHED -DBCMSDIO -DDHD_GPL -DBCMLXSDMMC -DBCMPLATFORM_BUS -DDHD_BCMEVENTS -DSHOW_EVENTS -DDHD_DEBUG -DSRCBASE=\"/home/tbressers/JetDroid/modules/wlan/src\" -DANDROID_SPECIFIC -DMAX_HDR_LEN=64 -DDHD_FIRSTREAD=64 -DSDIO_ISR_THREAD -DENABLE_DEEP_SLEEP -DWRITE_MACADDR -DCONFIG_BRCM_GPIO_INTR -DBCM_HOSTWAKE -DBCMHOSTWAKE_IRQ -DBCM_PKTFILTER -DBCM_ARPO -I/home/tbressers/JetDroid/modules/wlan/src/include/ -I/home/tbressers/JetDroid/modules/wlan/src/dhd/sys/ -I/home/tbressers/JetDroid/modules/wlan/src/dongle/ -I/home/tbressers/JetDroid/modules/wlan/src/bcmsdio/sys/ -I/home/tbressers/JetDroid/modules/wlan/src/wl/sys/ -I/home/tbressers/JetDroid/modules/wlan/src/shared/ -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(dhd_custom_gpio)"  -D"KBUILD_MODNAME=KBUILD_STR(dhd)"  -c -o /home/tbressers/JetDroid/modules/wlan/src/dhd/sys/dhd_custom_gpio.o /home/tbressers/JetDroid/modules/wlan/src/dhd/sys/dhd_custom_gpio.c
+cmd_/home/tbressers/JetDroid/Modules/wlan/src/dhd/sys/dhd_custom_gpio.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-gcc -Wp,-MD,/home/tbressers/JetDroid/Modules/wlan/src/dhd/sys/.dhd_custom_gpio.o.d  -nostdinc -isystem /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include -Iinclude  -I/home/tbressers/JetDroid/JetKernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6 -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -fno-dwarf2-cfi-asm -I/include -I/home/tbressers/JetDroid/JetKernel -DBCMDBG -DBCMDBG_MEM -Dlinux -DLINUX -DBDC -DTOE -DBCMDRIVER -DBCMDONGLEHOST -DDHDTHREAD -DBCMWPA2 -DUSE_STOCK_MMC_DRIVER -DDHD_GPL -DDHD_SCHED -DBCMSDIO -DDHD_GPL -DBCMLXSDMMC -DBCMPLATFORM_BUS -DDHD_BCMEVENTS -DSHOW_EVENTS -DDHD_DEBUG -DSRCBASE=\"/home/tbressers/JetDroid/Modules/wlan/src\" -DANDROID_SPECIFIC -DMAX_HDR_LEN=64 -DDHD_FIRSTREAD=64 -DSDIO_ISR_THREAD -DENABLE_DEEP_SLEEP -DWRITE_MACADDR -DCONFIG_BRCM_GPIO_INTR -DBCM_HOSTWAKE -DBCMHOSTWAKE_IRQ -DBCM_PKTFILTER -DBCM_ARPO -I/home/tbressers/JetDroid/Modules/wlan/src/include/ -I/home/tbressers/JetDroid/Modules/wlan/src/dhd/sys/ -I/home/tbressers/JetDroid/Modules/wlan/src/dongle/ -I/home/tbressers/JetDroid/Modules/wlan/src/bcmsdio/sys/ -I/home/tbressers/JetDroid/Modules/wlan/src/wl/sys/ -I/home/tbressers/JetDroid/Modules/wlan/src/shared/ -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(dhd_custom_gpio)"  -D"KBUILD_MODNAME=KBUILD_STR(dhd)"  -c -o /home/tbressers/JetDroid/Modules/wlan/src/dhd/sys/dhd_custom_gpio.o /home/tbressers/JetDroid/Modules/wlan/src/dhd/sys/dhd_custom_gpio.c
 
-deps_/home/tbressers/JetDroid/modules/wlan/src/dhd/sys/dhd_custom_gpio.o := \
-  /home/tbressers/JetDroid/modules/wlan/src/dhd/sys/dhd_custom_gpio.c \
-  /home/tbressers/JetDroid/modules/wlan/src/include/typedefs.h \
+deps_/home/tbressers/JetDroid/Modules/wlan/src/dhd/sys/dhd_custom_gpio.o := \
+  /home/tbressers/JetDroid/Modules/wlan/src/dhd/sys/dhd_custom_gpio.c \
+  /home/tbressers/JetDroid/Modules/wlan/src/include/typedefs.h \
   include/linux/version.h \
   include/linux/types.h \
     $(wildcard include/config/uid16.h) \
@@ -23,8 +23,8 @@ deps_/home/tbressers/JetDroid/modules/wlan/src/dhd/sys/dhd_custom_gpio.o := \
   /home/tbressers/JetDroid/JetKernel/arch/arm/include/asm/posix_types.h \
   /home/tbressers/JetDroid/JetKernel/arch/arm/include/asm/types.h \
   include/asm-generic/int-ll64.h \
-  /home/tbressers/JetDroid/modules/wlan/src/include/bcmdefs.h \
-  /home/tbressers/JetDroid/modules/wlan/src/include/linuxver.h \
+  /home/tbressers/JetDroid/Modules/wlan/src/include/bcmdefs.h \
+  /home/tbressers/JetDroid/Modules/wlan/src/include/linuxver.h \
     $(wildcard include/config/net/radio.h) \
     $(wildcard include/config/wireless/ext.h) \
   include/linux/module.h \
@@ -586,25 +586,25 @@ deps_/home/tbressers/JetDroid/modules/wlan/src/dhd/sys/dhd_custom_gpio.o := \
   include/linux/seq_file_net.h \
   include/linux/seq_file.h \
   include/net/dsa.h \
-  /home/tbressers/JetDroid/modules/wlan/src/include/osl.h \
-  /home/tbressers/JetDroid/modules/wlan/src/include/linux_osl.h \
+  /home/tbressers/JetDroid/Modules/wlan/src/include/osl.h \
+  /home/tbressers/JetDroid/Modules/wlan/src/include/linux_osl.h \
     $(wildcard include/config/mmc/msm7x00a.h) \
-  /home/tbressers/JetDroid/modules/wlan/src/include/bcmsdh.h \
-  /home/tbressers/JetDroid/modules/wlan/src/include/bcmutils.h \
-  /home/tbressers/JetDroid/modules/wlan/src/include/wlioctl.h \
+  /home/tbressers/JetDroid/Modules/wlan/src/include/bcmsdh.h \
+  /home/tbressers/JetDroid/Modules/wlan/src/include/bcmutils.h \
+  /home/tbressers/JetDroid/Modules/wlan/src/include/wlioctl.h \
     $(wildcard include/config/item.h) \
-  /home/tbressers/JetDroid/modules/wlan/src/include/proto/ethernet.h \
-  /home/tbressers/JetDroid/modules/wlan/src/include/packed_section_start.h \
-  /home/tbressers/JetDroid/modules/wlan/src/include/packed_section_end.h \
-  /home/tbressers/JetDroid/modules/wlan/src/include/proto/bcmeth.h \
-  /home/tbressers/JetDroid/modules/wlan/src/include/proto/bcmevent.h \
-  /home/tbressers/JetDroid/modules/wlan/src/include/proto/802.11.h \
-  /home/tbressers/JetDroid/modules/wlan/src/include/proto/wpa.h \
-  /home/tbressers/JetDroid/modules/wlan/src/include/bcmwifi.h \
-  /home/tbressers/JetDroid/modules/wlan/src/wl/sys/wl_iw.h \
+  /home/tbressers/JetDroid/Modules/wlan/src/include/proto/ethernet.h \
+  /home/tbressers/JetDroid/Modules/wlan/src/include/packed_section_start.h \
+  /home/tbressers/JetDroid/Modules/wlan/src/include/packed_section_end.h \
+  /home/tbressers/JetDroid/Modules/wlan/src/include/proto/bcmeth.h \
+  /home/tbressers/JetDroid/Modules/wlan/src/include/proto/bcmevent.h \
+  /home/tbressers/JetDroid/Modules/wlan/src/include/proto/802.11.h \
+  /home/tbressers/JetDroid/Modules/wlan/src/include/proto/wpa.h \
+  /home/tbressers/JetDroid/Modules/wlan/src/include/bcmwifi.h \
+  /home/tbressers/JetDroid/Modules/wlan/src/wl/sys/wl_iw.h \
   include/linux/wireless.h \
   include/net/iw_handler.h \
 
-/home/tbressers/JetDroid/modules/wlan/src/dhd/sys/dhd_custom_gpio.o: $(deps_/home/tbressers/JetDroid/modules/wlan/src/dhd/sys/dhd_custom_gpio.o)
+/home/tbressers/JetDroid/Modules/wlan/src/dhd/sys/dhd_custom_gpio.o: $(deps_/home/tbressers/JetDroid/Modules/wlan/src/dhd/sys/dhd_custom_gpio.o)
 
-$(deps_/home/tbressers/JetDroid/modules/wlan/src/dhd/sys/dhd_custom_gpio.o):
+$(deps_/home/tbressers/JetDroid/Modules/wlan/src/dhd/sys/dhd_custom_gpio.o):

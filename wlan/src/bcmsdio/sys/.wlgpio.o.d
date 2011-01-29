@@ -1,4 +1,4 @@
-wlgpio.o: /home/tbressers/JetDroid/modules/wlan/src/bcmsdio/sys/wlgpio.c \
+wlgpio.o: /home/tbressers/JetDroid/Modules/wlan/src/bcmsdio/sys/wlgpio.c \
  include/linux/autoconf.h include/linux/delay.h include/linux/kernel.h \
  /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include/stdarg.h \
  include/linux/linkage.h include/linux/compiler.h \

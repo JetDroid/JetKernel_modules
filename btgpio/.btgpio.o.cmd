@@ -1,7 +1,7 @@
-cmd_/home/tbressers/JetDroid/modules/btgpio/btgpio.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-gcc -Wp,-MD,/home/tbressers/JetDroid/modules/btgpio/.btgpio.o.d  -nostdinc -isystem /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include -Iinclude  -I/home/tbressers/JetDroid/JetKernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6 -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -fno-dwarf2-cfi-asm -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(btgpio)"  -D"KBUILD_MODNAME=KBUILD_STR(btgpio)"  -c -o /home/tbressers/JetDroid/modules/btgpio/btgpio.o /home/tbressers/JetDroid/modules/btgpio/btgpio.c
+cmd_/home/tbressers/JetDroid/Modules/btgpio/btgpio.o := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-gcc -Wp,-MD,/home/tbressers/JetDroid/Modules/btgpio/.btgpio.o.d  -nostdinc -isystem /home/tbressers/JetDroid/JetPlatform/source/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/../lib/gcc/arm-eabi/4.4.0/include -Iinclude  -I/home/tbressers/JetDroid/JetKernel/arch/arm/include -include include/linux/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-s3c6400/include -Iarch/arm/mach-s3c6410/include -Iarch/arm/plat-s3c64xx/include -Iarch/arm/plat-s3c/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=6 -march=armv6 -mtune=arm1136j-s -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -I/modules/include -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -Wdeclaration-after-statement -Wno-pointer-sign -fwrapv -fno-dwarf2-cfi-asm -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(btgpio)"  -D"KBUILD_MODNAME=KBUILD_STR(btgpio)"  -c -o /home/tbressers/JetDroid/Modules/btgpio/btgpio.o /home/tbressers/JetDroid/Modules/btgpio/btgpio.c
 
-deps_/home/tbressers/JetDroid/modules/btgpio/btgpio.o := \
-  /home/tbressers/JetDroid/modules/btgpio/btgpio.c \
+deps_/home/tbressers/JetDroid/Modules/btgpio/btgpio.o := \
+  /home/tbressers/JetDroid/Modules/btgpio/btgpio.c \
   include/linux/kernel.h \
     $(wildcard include/config/lbd.h) \
     $(wildcard include/config/preempt/voluntary.h) \
@@ -347,8 +347,8 @@ deps_/home/tbressers/JetDroid/modules/btgpio/btgpio.o := \
   arch/arm/mach-s3c6400/include/mach/instinctq.h \
     $(wildcard include/config/jet/option.h) \
   arch/arm/mach-s3c6400/include/mach/jet.h \
-  /home/tbressers/JetDroid/modules/btgpio/btgpio.h \
+  /home/tbressers/JetDroid/Modules/btgpio/btgpio.h \
 
-/home/tbressers/JetDroid/modules/btgpio/btgpio.o: $(deps_/home/tbressers/JetDroid/modules/btgpio/btgpio.o)
+/home/tbressers/JetDroid/Modules/btgpio/btgpio.o: $(deps_/home/tbressers/JetDroid/Modules/btgpio/btgpio.o)
 
-$(deps_/home/tbressers/JetDroid/modules/btgpio/btgpio.o):
+$(deps_/home/tbressers/JetDroid/Modules/btgpio/btgpio.o):
