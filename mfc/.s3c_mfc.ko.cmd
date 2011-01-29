@@ -1,0 +1,1 @@
+cmd_/home/tbressers/JetDroid/modules/mfc/s3c_mfc.ko := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL -r   -o /home/tbressers/JetDroid/modules/mfc/s3c_mfc.ko /home/tbressers/JetDroid/modules/mfc/s3c_mfc.o /home/tbressers/JetDroid/modules/mfc/s3c_mfc.mod.o

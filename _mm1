@@ -1,0 +1,4 @@
+#!/bin/sh
+
+make KDIR=/home/tbressers/JetDroid/JetKernel CFLAGS=-O3
+cp *.ko /home/tbressers/JetDroid/initramfs/lib/modules

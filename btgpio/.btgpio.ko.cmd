@@ -1,0 +1,1 @@
+cmd_/home/tbressers/JetDroid/modules/btgpio/btgpio.ko := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL -r   -o /home/tbressers/JetDroid/modules/btgpio/btgpio.ko /home/tbressers/JetDroid/modules/btgpio/btgpio.o /home/tbressers/JetDroid/modules/btgpio/btgpio.mod.o

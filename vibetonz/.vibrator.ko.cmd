@@ -1,0 +1,1 @@
+cmd_/home/tbressers/JetDroid/modules/vibetonz/vibrator.ko := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL -r   -o /home/tbressers/JetDroid/modules/vibetonz/vibrator.ko /home/tbressers/JetDroid/modules/vibetonz/vibrator.o /home/tbressers/JetDroid/modules/vibetonz/vibrator.mod.o

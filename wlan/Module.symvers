@@ -1,0 +1,5 @@
+0x00000000	gpio_regon_lock_init	/home/tbressers/JetDroid/i5700.2/modules/wlan/dhd	EXPORT_SYMBOL_GPL
+0x00000000	gpio_wlan_poweron	/home/tbressers/JetDroid/i5700.2/modules/wlan/dhd	EXPORT_SYMBOL_GPL
+0x00000000	gpio_wlan_poweroff	/home/tbressers/JetDroid/i5700.2/modules/wlan/dhd	EXPORT_SYMBOL_GPL
+0x00000000	bcmsdh_remove	/home/tbressers/JetDroid/i5700.2/modules/wlan/dhd	EXPORT_SYMBOL
+0x00000000	bcmsdh_probe	/home/tbressers/JetDroid/i5700.2/modules/wlan/dhd	EXPORT_SYMBOL
