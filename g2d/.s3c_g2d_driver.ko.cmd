@@ -1,1 +1,0 @@
-cmd_/home/tbressers/JetDroid/Modules/g2d/s3c_g2d_driver.ko := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL -r   -o /home/tbressers/JetDroid/Modules/g2d/s3c_g2d_driver.ko /home/tbressers/JetDroid/Modules/g2d/s3c_g2d_driver.o /home/tbressers/JetDroid/Modules/g2d/s3c_g2d_driver.mod.o

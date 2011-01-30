@@ -1,1 +1,0 @@
-cmd_/home/tbressers/JetDroid/Modules/xsr/xsr.ko := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL -r   -o /home/tbressers/JetDroid/Modules/xsr/xsr.ko /home/tbressers/JetDroid/Modules/xsr/xsr.o /home/tbressers/JetDroid/Modules/xsr/xsr.mod.o

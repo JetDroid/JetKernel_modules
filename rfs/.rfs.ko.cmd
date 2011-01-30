@@ -1,1 +1,0 @@
-cmd_/home/tbressers/JetDroid/Modules/rfs/rfs.ko := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL -r   -o /home/tbressers/JetDroid/Modules/rfs/rfs.ko /home/tbressers/JetDroid/Modules/rfs/rfs.o /home/tbressers/JetDroid/Modules/rfs/rfs.mod.o

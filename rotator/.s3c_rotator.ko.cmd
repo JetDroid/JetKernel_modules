@@ -1,1 +1,0 @@
-cmd_/home/tbressers/JetDroid/Modules/rotator/s3c_rotator.ko := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL -r   -o /home/tbressers/JetDroid/Modules/rotator/s3c_rotator.ko /home/tbressers/JetDroid/Modules/rotator/s3c_rotator.o /home/tbressers/JetDroid/Modules/rotator/s3c_rotator.mod.o

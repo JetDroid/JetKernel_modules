@@ -1,1 +1,0 @@
-cmd_/home/tbressers/JetDroid/Modules/g3d/s3c_g3d.ko := ../android/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-ld -EL -r   -o /home/tbressers/JetDroid/Modules/g3d/s3c_g3d.ko /home/tbressers/JetDroid/Modules/g3d/s3c_g3d.o /home/tbressers/JetDroid/Modules/g3d/s3c_g3d.mod.o
