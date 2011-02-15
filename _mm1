@@ -1,6 +1,8 @@
 #!/bin/sh
+ANDROIDSRC=../android
+CCOMPILER=$ANDROIDSRC/prebuilt/linux-x86/toolchain/arm-eabi-4.4.0/bin/arm-eabi-
 
-make KDIR=${HOME}/JetDroid/JetKernel CFLAGS=-O3
+make CROSS_COMPILE=$CCOMPILER KDIR=${HOME}/JetDroid/JetKernel CFLAGS=-O3
 mkdir -p ${HOME}/JetDroid/JetKernel/arch/arm/boot/modules 
 cp *.ko ${HOME}/JetDroid/JetKernel/arch/arm/boot/modules
 
